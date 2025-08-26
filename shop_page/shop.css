@@ -1,15 +1,152 @@
-#head{
-    text-align: center;
-    border-style: none;
-    color: white;
-    background-color: darkgreen;
-    padding-block: 11px;
-    background-image: url("shop_images/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-block: 50px;
-    margin-top:-10px;
-    
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #f5f5f5;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #f5f5f5;
+}
+
+h3 {
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #f5f5f5;
+    margin: 15px 0 20px 0;
+}
+
+
+.section-p1 {
+    padding: 40px 80px;
 
 }
+
+.section-m1 {
+    margin:40px 0;
+}
+
+body{
+    width:100%;
+}
+
+/*Header*/
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6) ;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position:relative;
+
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #0f7a05;
+}
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #0a5e03;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero{
+    background-image:url("shop_images/shopbg.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0 ;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+
+}
+
+#hero h1 {
+    color: rgb(6, 230, 54);
+
+}
+
+
+#hero button{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: white;
+}
+
+
+#button-icon{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 130px;
+    height: 50px;
+    
+
+}
+
+#button-icon p{
+    padding-top: 6px;
+    color: rgb(2, 179, 55);
+}
+
+
