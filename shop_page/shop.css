@@ -1,0 +1,15 @@
+#head{
+    text-align: center;
+    border-style: none;
+    color: white;
+    background-color: darkgreen;
+    padding-block: 11px;
+    background-image: url("shop_images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 50px;
+    margin-top:-10px;
+    
+
+
+}
