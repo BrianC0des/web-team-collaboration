@@ -154,17 +154,13 @@ body {
 }
 
 
-#shop-button{
-    font-family:'Times New Roman', Times, serif;
-    background-color:darkgreen;
-    color:rgb(165, 165, 165);
-    width:75px;
+#shop-icon {
     height: 40px;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 5px;
 }
 
+#shop-button{
+    background-color:green;
+}
 
 
 #inquiries {
