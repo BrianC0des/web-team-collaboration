@@ -6,6 +6,12 @@ body {
     background-attachment:fixed;
     margin: 20px;
 }
+
+.home{
+    float: left;
+
+}
+
 #CCSlogo {
     width: 125px;
     height: 110px;
@@ -45,6 +51,8 @@ body {
     text-align: center;
     transform: translateY(-90px);
 }
+
+
 #txt1 {
     color:aliceblue;
     margin-left: auto;
@@ -144,6 +152,21 @@ body {
     height: 150px;
     width: 250px;
 }
+
+
+#shop-button{
+    font-family:'Times New Roman', Times, serif;
+    background-color:darkgreen;
+    color:rgb(165, 165, 165);
+    width:75px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
 #inquiries {
     color:aliceblue;
     margin-bottom: 50px;
