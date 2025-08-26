@@ -1,0 +1,150 @@
+body {
+    background-image: url("CCSimages/CCSwebBg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 20px;
+}
+#CCSlogo {
+    width: 125px;
+    height: 110px;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid white;
+    transform: translateX(50px);
+    transform: translateY(-130px);
+    float: right;
+}
+#WmsuLogo {
+    width: 125px;
+    height: 110px;
+    position: right;
+    border-radius: 50%;
+    margin:auto;
+    border: 2px solid white;
+    transform: translateX(50px);
+    transform: translateY(-130px);
+}
+#header {
+    border-width: 100%;
+    background-color:rgba(14, 92, 12, 0.5);
+    text-align: center;
+    text-shadow: rgb(101, 255, 111) 0.1em 0.1em 0.2em;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#about {
+    border-style: none;
+    color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transform: translateY(-90px);
+}
+#txt1 {
+    color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    transform: translateY(-50px);
+}
+#Courseshi{
+    text-align: center;
+    padding: 20px;
+    border-style: none;
+    border-width: 100%;
+    background-color: rgba(14, 92, 12, 0.5);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -20px;
+    text-shadow: rgb(72, 218, 72) 0.1em 0.1em 0.2em;
+}
+#Cs1 {
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    float: right;
+}
+#Csinfo {
+    font-size: small;
+    color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+#It1 {
+    border-style: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    float: left;
+}
+#Itinfo {
+    font-size: small;
+    color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#Appdev1 {
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    float: right;
+}
+#Appdevinfo {
+    font-size: small;
+    color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+#tutorials {
+    border-style: none;
+    background-color: rgba(73, 90, 73, 0.3);
+    padding: 20px;
+}
+.Tuts{
+    color: rgb(129, 255, 103);
+}
+#Htmltut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+    margin-right: 5px;
+}
+#CSStut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+    margin-right: 5px;
+}
+#JStut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+}
+#Pythontut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+    margin-right: 5px;
+}
+#Cpptut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+    margin-right: 5px;
+}
+#Javatut {
+    border-style: none;
+    height: 150px;
+    width: 250px;
+}
+#inquiries {
+    color:aliceblue;
+    margin-bottom: 50px;
+}
