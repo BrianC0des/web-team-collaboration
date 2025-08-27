@@ -179,20 +179,8 @@ main{
     height: 150px;
     width: 250px;
 }
-<<<<<<< HEAD
 
 
-#shop-icon {
-    height: 40px;
-}
-
-#shop-button{
-    background-color:green;
-}
-
-
-#inquiries {
-=======
 .inquiries img{
     width: 150px;
     border-radius: 50%;
@@ -201,7 +189,6 @@ main{
     margin-top: 50px;
 }
 .inquiries {
->>>>>>> fac4f0e15208f86375c11fecef19f92f6fe97614
     color:aliceblue;
     margin-bottom: 50px;
     margin-left: 20px;
