@@ -7,13 +7,29 @@
         <title> CCS Website </title>
     </head> 
     <body>
-        <div id = header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Sections</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Programming</a></li>
+                <li><a href="">WebDev</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Announcements</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <div class = header>
             <h1> CCS-W </h1>
             <h4> College of Computing Studies Website </h4>
-        </div>
-        <img id = CCSlogo src="CCSimages/CCSlogo.jpg" alt="CCS Logo">
+            <img id = CCSlogo src="CCSimages/CCSlogo.jpg" alt="CCS Logo">
         <img id = WmsuLogo src="CCSimages/WmsuLogo.png" alt="WMSU Logo">
-        <div id = about>
+        </div>
+        <main>
+        <div class = about>
         <h3> About Us </h3>
         <p> The College of Computing Studies (CCS) is one of the colleges in <a href="https://wmsu.edu.ph/" title="Link to WMSU website" target="_blank"> Western Mindanao State University (WMSU)</a> that offers various degree programs in the field of computing and information technology. The college aims to provide quality education and training to students who are interested in pursuing careers in the rapidly evolving field of computing. </p>
         <p> This website aims to serve the college of computing studies, help it's students through their work, announcements and to serve the community. </p>
@@ -23,7 +39,6 @@
         <h2> Home </h2>
         <p> Welcome to the College of Computing Studies Website! This website is designed to provide students, faculty, and 
         staff with easy access to important information and resources related to the college. </p>
-        <hr>
         <h2 id = Courseshi > Courses </h2>
         </div>
         <br>
@@ -52,29 +67,28 @@
         <br>
         <br>
         <hr>
-        <div id = tutorials>
-        <h2 class="Tuts"> Quick lessons to get you started </h2>
+        <div class = tutorials>
+        <h2 id="Tuts"> Quick lessons to get you started </h2>
         <br>
-        <h3 class="Tuts"> Web Development </h3>
+        <h3 id="Tuts"> Web Development </h3>
         <a href="https://youtu.be/HD13eq_Pmp8?si=GuSbu6whjm_1EoXt" title="Html 1hr" target="_blank"> <img id = Htmltut src = "CCSimages/Html1hr.jpg" alt="Link to HTML tutorial"> </a>
         <a href="https://youtu.be/wRNinF7YQqQ?si=YLden3wIagMTcmB0" title="CSS 1hr" target="_blank"> <img id = CSStut src = "CCSimages/CSS1hr.jpg" alt="Link to CSS tutorial"> </a>
         <a href="https://youtu.be/lfmg-EJ8gm4?si=mT8WcTp0BGDshrB4" title="JavaScript 12hr" target="_blank"> <img id = JStut src = "CCSimages/JSscript12hr.jpg" alt="Link to JavaScript tutorial"> </a>
         <br>
-        <h3 class="Tuts"> Programming </h3>
+        <h3 id="Tuts"> Programming </h3>
          <a href="https://youtu.be/K5KVEU3aaeQ?si=prTSSvQUTzxOzCTQ" title="Python 2hr" target="_blank"> <img id = Pythontut src = "CCSimages/Python2hrs.jpg" alt="Link to Python tutorial"> </a>
         <a href="https://youtu.be/-TkoO8Z07hI?si=P8MPfrNrJdmpk4xq" title="C++ full course" target="_blank"> <img id = Cpptut src = "CCSimages/C++full.jpg" alt="Link to C++ tutorial"> </a>
         <a href="https://youtu.be/xTtL8E4LzTQ?si=g8lmgLeUjMjIe3Zu" title="Java full course" target="_blank"> <img id = Javatut src = "CCSimages/Javafull.jpg" alt="Link to Java tutorial"> </a>
         </div>
         <br>
-        <br>
-        <hr>
-        <div class="shop">
-            <a href="shop_page/shop.html"><button id="shop-button"><img id="shop-icon" src="shop_page/shop_images/image.png" alt="shop"></button></a>
-        </div>
-        <div id = inquiries>
+
+        <div class= inquiries>
+        <img src="CCSimages/CCSlogo.jpg">
         <h2> For Inquiries </h2>
         <p> The official WMSU email:</p>
         <a href="mailto: wmsu@wmsu.edu.ph" title="Link to WMSU email" target="_blank"> wmsu@wmsu.edu.ph </a>
+        <p> The official WMSU Website:</p>
+        <a href="https://wmsu.edu.ph/" title="Link to WMSU website" target="_blank"> wmsu.edu.ph </a>
         <p> The official CCS email:</p>
         <a href="mailto: mockccsemail@ccs.edu.ph" title="Link to CCS email" target="_blank"> mockccsemail@ccs.edu.ph </a>
         <p> Contact Number:</p>
@@ -82,6 +96,7 @@
         <p> Creator </p>
         <a href="https://github.com/Akizenoko" title="Link to my Github" target="_blank"> My Github </a>
         </div>
+        </main>
     </body>
 
 </html>
