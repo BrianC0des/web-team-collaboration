@@ -1,0 +1,78 @@
+body {
+    background-image: url("CCSimages/CCSwebBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0px;
+}
+main{
+    margin: 25px;
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    backdrop-filter: blur(45px);
+    z-index: 9999;
+    border-bottom-style: solid;
+    border-color: rgb(135, 249, 137);
+}
+.navbar ul{
+    border-width: 4px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.navbar a{
+    color: rgb(181, 255, 169);
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: rgba(62, 120, 72, 0.5);
+}
+.navbar li{
+    float: right;
+}
+#header {
+    border-width: 100%;
+    background-color:rgba(27, 44, 26, 0.5);
+    text-align: center;
+    text-shadow: rgb(101, 255, 111) 0.1em 0.1em 0.2em;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.about {
+    color: aliceblue;
+}
+#announcements {
+    color: aliceblue;
+    border-style: none;
+    background-color: rgb(42, 57, 51);
+    border-radius: 20px;
+    padding: 20px;
+}
+.inquiries img{
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.inquiries {
+    color:aliceblue;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.inquiries p{
+    margin-bottom: -1px;
+}
+.inquiries a{
+    text-decoration: none;
+    color: rgb(85, 255, 125);
+}

@@ -1,75 +1,99 @@
 body {
-    background-image: url("CCSimages/CCSwebBg.jpg");
+    background-image: url("CCSimages/CCSwebBg3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
+    margin: 0px;
+}
+main{
     margin: 20px;
 }
-
-.home{
-    float: left;
-
-}
-
 #CCSlogo {
-    width: 125px;
-    height: 110px;
+    height: 85px;
     border-radius: 50%;
     margin: auto;
     border: 2px solid white;
-    transform: translateX(50px);
-    transform: translateY(-130px);
-    float: right;
+    transform: translate(70px,-120px);
+    float: left;
 }
 #WmsuLogo {
-    width: 125px;
-    height: 110px;
+    height: 85px;
     position: right;
     border-radius: 50%;
     margin:auto;
     border: 2px solid white;
-    transform: translateX(50px);
-    transform: translateY(-130px);
+    transform: translate(-70px,-120px);
+    float: right;
 }
-#header {
+.header {
     border-width: 100%;
-    background-color:rgba(14, 92, 12, 0.5);
+    background:linear-gradient(rgb(21, 81, 21),rgba(0,0,0,0.5));
     text-align: center;
     text-shadow: rgb(101, 255, 111) 0.1em 0.1em 0.2em;
-    border-radius: 20px;
     color: white;
     padding: 15px;
     margin-left: -50px;
     margin-right: -50px;
+    backdrop-filter: blur(45px);
 }
-#about {
+.navbar{
+    position:sticky;
+    top: 0px;
+    backdrop-filter: blur(45px);
+    z-index: 9999;
+    border-bottom-style: solid;
+    border-color: rgb(135, 249, 137);
+}
+.navbar ul{
+    border-width: 4px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.navbar a{
+    color: rgb(181, 255, 169);
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: rgba(62, 120, 72, 0.5);
+}
+.navbar li{
+    float: right;
+}
+.about {
     border-style: none;
     color:aliceblue;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    transform: translateY(-90px);
 }
-
-
+.about a{
+    color: rgb(72, 246, 72) ;
+}
 #txt1 {
     color:aliceblue;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    transform: translateY(-50px);
+}
+#txt1 h2{
+    margin-top: 35px;
 }
 #Courseshi{
+    color: aliceblue;
     text-align: center;
     padding: 20px;
-    border-style: none;
-    border-width: 100%;
-    background-color: rgba(14, 92, 12, 0.5);
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: -20px;
+    border-style: solid;
+    border-radius: 25px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     text-shadow: rgb(72, 218, 72) 0.1em 0.1em 0.2em;
+    backdrop-filter: blur(5px);
 }
 #Cs1 {
     border-style: none;
@@ -110,13 +134,16 @@ body {
     margin-right: auto;
     text-align: right;
 }
-#tutorials {
-    border-style: none;
-    background-color: rgba(73, 90, 73, 0.3);
-    padding: 20px;
+.tutorials {
+    border-style:outset;
+    border-width: 5px;
+    border-radius: 45px;
+    padding: 30px;
+    border-color: rgba(118, 255, 141, 0.3);
+    backdrop-filter: blur(7px);
 }
-.Tuts{
-    color: rgb(129, 255, 103);
+#Tuts{
+    color: rgb(48, 245, 127);
 }
 #Htmltut {
     border-style: none;
@@ -152,6 +179,7 @@ body {
     height: 150px;
     width: 250px;
 }
+<<<<<<< HEAD
 
 
 #shop-icon {
@@ -164,6 +192,24 @@ body {
 
 
 #inquiries {
+=======
+.inquiries img{
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.inquiries {
+>>>>>>> fac4f0e15208f86375c11fecef19f92f6fe97614
     color:aliceblue;
     margin-bottom: 50px;
+    margin-left: 20px;
+}
+.inquiries p{
+    margin-bottom: -1px;
+}
+.inquiries a{
+    text-decoration: none;
+    color: rgb(85, 255, 125);
 }
